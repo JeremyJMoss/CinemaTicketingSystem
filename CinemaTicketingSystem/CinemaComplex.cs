@@ -66,6 +66,12 @@ public class CinemaComplex
 
     public List<TicketMachine> TicketMachines { get; set; } = new List<TicketMachine>();
 
+    public TicketMachine AddTicketMachine(string id)
+    {
+        var tm = new TicketMachine(id, this);
+        TicketMachines.Add(tm);
+        return tm;
+    }
     
     public string Name { get; set; }
     

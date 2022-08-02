@@ -7,6 +7,7 @@ public class Session
         StartTime = startTime;
         Movie = movie;
         Cinema = cinema;
+        movie.Sessions.Add(this);
     }
     
     public Movie Movie { get; set; }
