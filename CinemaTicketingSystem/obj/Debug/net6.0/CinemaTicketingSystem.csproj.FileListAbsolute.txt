@@ -1,0 +1,15 @@
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/bin/Debug/net6.0/CinemaTicketingSystem
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/bin/Debug/net6.0/CinemaTicketingSystem.deps.json
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/bin/Debug/net6.0/CinemaTicketingSystem.runtimeconfig.json
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/bin/Debug/net6.0/CinemaTicketingSystem.dll
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/bin/Debug/net6.0/CinemaTicketingSystem.pdb
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/CinemaTicketingSystem.csproj.AssemblyReference.cache
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/CinemaTicketingSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/CinemaTicketingSystem.AssemblyInfoInputs.cache
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/CinemaTicketingSystem.AssemblyInfo.cs
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/CinemaTicketingSystem.csproj.CoreCompileInputs.cache
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/CinemaTicketingSystem.dll
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/refint/CinemaTicketingSystem.dll
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/CinemaTicketingSystem.pdb
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/CinemaTicketingSystem.genruntimeconfig.cache
+/home/voldemort/Documents/tafeNotesAndPrograms/C#/CinemaTicketingSystem/CinemaTicketingSystem/obj/Debug/net6.0/ref/CinemaTicketingSystem.dll
