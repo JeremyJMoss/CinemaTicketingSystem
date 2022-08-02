@@ -6,13 +6,19 @@ public class TicketMachine
     {
         Id = id;
         CinemaComplex = complex;
-
     }
 
     public CinemaComplex CinemaComplex { get; set; }
     public string Id { get; set; }
 
     public List<Ticket> Tickets = new List<Ticket>();
+
+    public Ticket AddTicket(Session session, Seat seat)
+    {
+        var t = new Ticket(session, seat);
+        Tickets.Add(t);
+        return t;
+    }
 
     public List<Movie> Movies
     {

@@ -56,7 +56,6 @@ public class CinemaComplex
 
     public Session ScheduleSession(DateTime startTime, string title, string cinemaName)
     {
-        
         var movie = FindMovieByTitle(title);
         var cinema = FindCinemaByName(cinemaName);
         var session = new Session(startTime, movie, cinema);

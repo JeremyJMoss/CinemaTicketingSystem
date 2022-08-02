@@ -53,6 +53,9 @@ public class Program
         }
         
         Console.WriteLine("Please select a session: ");
-        var session = Console.ReadLine();
+        int selectedSessionIndex = int.Parse(Console.ReadLine());
+
+        var session = movie.FutureSessions[selectedSessionIndex - 1];
+        
     }
 }

@@ -2,7 +2,13 @@ namespace CinemaTicketingSystem;
 
 public class Ticket
 {
-    public Seat Serat { get; set; }
+    public Ticket(Session session, Seat seat)
+    {
+        Seat = seat;
+        Session = session;
+        Issued = DateTime.Now;
+    }
+    public Seat Seat { get; set; }
     
     public Session Session { get; set; }
     
