@@ -12,14 +12,21 @@ public class TicketMachine
     public string Id { get; set; }
 
     public List<Ticket> Tickets = new List<Ticket>();
-
-    public Ticket AddTicket(Session session, Seat seat)
+    
+    public Ticket BuyTicket(Session session, Seat seat)
     {
         var t = new Ticket(session, seat);
         Tickets.Add(t);
+        session.sellSeat(seat);
         return t;
     }
 
+    public List<Seat> AvailableSeats(Session session)
+    {
+        return session.AvailableSeats;
+    }
+    
+    
     public List<Movie> Movies
     {
         get

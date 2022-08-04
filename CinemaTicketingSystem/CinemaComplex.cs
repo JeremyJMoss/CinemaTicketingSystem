@@ -53,7 +53,7 @@ public class CinemaComplex
     }
     
     public List<Session> Sessions { get; set; } = new List<Session>();
-
+    
     public Session ScheduleSession(DateTime startTime, string title, string cinemaName)
     {
         var movie = FindMovieByTitle(title);
@@ -75,4 +75,17 @@ public class CinemaComplex
     public string Name { get; set; }
     
     public string Address { get; set; }
+    
+    public Seat FindSeatByName(Session session, string seatName)
+    {
+        foreach (var s in session.AvailableSeats)
+        {
+            if (s.Name == seatName)
+            {
+                return s;
+            }
+        }
+
+        throw new Exception($"{seatName} not found in available seats");
+    }
 }
